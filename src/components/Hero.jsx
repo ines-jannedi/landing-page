@@ -58,21 +58,21 @@ export default function Hero() {
                     <p className="text-md sm:text-base lg:text-lg text-gray-400 max-w-2xl mx-auto lg:mx-0 mb-6 sm:mb-8 animate-in slide-in-from-bottom duration-700 delay-200 leading-relaxed">
                         Accelerate your development workflow with intelligent code
                         completion, automated testing, and smart debugging.
-                         Ship production-ready code 10x faster.
+                        Ship production-ready code 10x faster.
                     </p>
 
                     <div className="flex flex-col sm: flex-row items-center justify-center lg:justify-start gap-3 sm:gap-4 m-8 sm:mb-12 animate-in slide-in-from-bottom duration-700 delay-300">
                         <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-gradient-to-b from-blue-600 to-blue-400 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:scale-102 flex items-center justify-center space-x-2">
                             <span>Start Coding Free</span>
-                            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300"/>
-                            </button>
+                            <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform duration-300" />
+                        </button>
 
-                             <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-white/10 flex items-center justify-center space-x-2">
+                        <button className="group w-full sm:w-auto px-6 sm:px-8 py-3 sm:py-4 bg-white/5 backdrop-blur-sm border border-white/10 rounded-lg font-semibold text-sm sm:text-base transition-all duration-300 hover:bg-white/10 flex items-center justify-center space-x-2">
                             <div className="p-2 bg-white/10 rounded-full group-hover:bg-white/20 duration-300 transition-colors">
-                                 <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-white"/> 
+                                <Play className="w-4 h-4 sm:w-5 sm:h-5 fill-white" />
                             </div>
                             <span>Watch Demo</span>
-                            </button>
+                        </button>
                     </div>
 
                 </div>
